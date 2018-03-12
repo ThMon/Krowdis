@@ -1,0 +1,320 @@
+@font-face {
+	font-family: 'MavenPro-Black';
+	src: url('assets/police/maven-pro/MavenPro-Black.ttf');
+}
+
+@font-face {
+	font-family: 'MavenPro-Bold';
+	src: url('assets/police/maven-pro/MavenPro-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'MavenPro-Medium';
+	src: url('assets/police/maven-pro/MavenPro-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'MavenPro-Regular';
+	src: url('assets/police/maven-pro/MavenPro-Regular.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.m-b-40 {
+	margin-bottom: 40px;
+}
+
+.i-b {
+	display: inline-block;
+}
+/*======================HEADER======================================*/
+
+.kd-header {
+	font-family: "MavenPro-Medium", arial, sans-serif;
+	font-size: 22px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 92%;
+  background-color: white;
+  padding: 20px 4%;
+  border-bottom: 1px solid #eaeae8;
+}
+
+.kd-header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.kd-header .kd-logo{
+	display: inline-block;
+	width: 20%;
+}
+
+.kd-header .kd-nav {
+	display: inline-block;
+	width: 78%;
+	text-align: right;
+}
+
+.kd-nav a {
+	font-size: 15px;
+  margin: 0 2%;
+  color: #b5b5b5;
+  padding: 5px 1%;
+}
+
+.kd-nav a:hover {
+	border-bottom: 2px solid #FDF400;
+}
+
+/*====================== SECTION 1 ======================================*/
+
+.kd-presentation {
+	margin-top: 66px;
+	min-height: 640px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('assets/img/background.png');
+	font-family: 'MavenPro-Bold', arial, sans-serif;
+}
+
+.kd-influence {
+	width: 50%;
+	padding: 120px 5% 0;
+}
+
+.kd-influence h1 {
+	font-size: 40px;
+}
+
+.kd-influence p {
+	font-size: 20px;
+	font-family: 'MavenPro-Regular', arial, sans-serif;
+	margin-bottom: 30px;
+}
+
+.kd-demo-link {
+	background-color: #7F3AFF;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	padding: 11px 3%;
+  font-size: 14px;
+  margin-right: 3%;
+}
+
+.kd-info-link {
+	text-decoration: none;
+	color: #000000;
+	background-color: white;
+  padding: 11px 3%;
+  font-size: 14px;
+  border: 1px solid #b5b5b5;
+  border-radius: 20px;
+}
+
+.kd-presentation .kd-ancre {
+	display: block;
+  text-align: center;
+  margin-top: 155px;
+}
+
+/*====================== SECTION 2 ======================================*/
+
+
+.kd-perso {
+	min-height: 640px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+}
+
+.kd-perso p {
+	font-family: 'MavenPro-Regular', arial, sans-serif;
+}
+
+.kd-left-prez {
+	display: inline-block;
+	width: 58%;
+}
+
+.kd-left-prez img {
+	width: 70%;
+	margin-left: 20%;
+ 	margin-top: 100px;
+}
+
+.kd-right-prez {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+  padding-top: 130px;
+}
+
+
+/*====================== SECTION 3 ======================================*/
+
+
+.kd-using {
+	min-height: 640px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	background-image: url('assets/img/background-using.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -120px;
+}
+
+
+.kd-using p {
+	font-family: 'MavenPro-Regular', arial, sans-serif;
+}
+
+hr {
+	width: 20%;
+	border-top: 2px solid #FDF400;
+	height: 0px;
+}
+
+.kd-use-title {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.kd-use-articles {
+	text-align: center;
+}
+
+.kd-use-articles article {
+	background-color: white;
+	border-radius: 20px;
+/*	border: 1px solid #eaeae8;*/
+}
+
+.kd-use-1 {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-right: 2%;
+}
+
+.kd-use-2 {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-right: 2%;
+}
+
+.kd-use-3 {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-right: 2%;
+}
+
+.kd-use-4 {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+
+p.kd-prez-footer1 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-family: "MavenPro-Medium", arial, sans-serif;
+}
+
+p.kd-prez-footer2 {
+	text-align: center;
+	margin-top: 8px;
+	font-weight: bold;
+	font-family: "MavenPro-Medium", arial, sans-serif;
+
+}
+
+/*====================== SECTION 4 ======================================*/
+
+.kd-mission {
+	min-height: 640px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	text-align: center;
+}
+
+.kd-mission h2 {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.kd-mission article {
+	width: 30%;
+	text-align: left;
+}
+.kd-mission .kd-mission-center {
+	width: 20%;
+}
+.kd-mission-logo {
+	width: 22%;
+}
+
+.kd-miss-desc {
+	width: 70%;
+	margin-left: 5%;
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+
+.kd-miss-desc h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.kd-miss-desc p {
+	margin-top: 5px;
+}
+
+.kd-img-center {
+	width: 55%;
+  margin-left: 23%;
+}
+
+/*====================== SECTION 5 ======================================*/
+
+.kd-slide {
+	min-height: 640px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	text-align: center;
+}
+
+.kd-slide h2 {
+	margin-left: 3%;
+	text-align: left;
+}
+
+.kd-slide li {
+	text-decoration: none;
+	list-style: none;;
+}
+
+.kd-slide-txt {
+	width: 32%;
+	background-image: url('assets/img/bullebleuefonce.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.kd-slide-img {
+	width: 14%;
+	margin-left: 5%;
+	text-align: left;
+}
+
+.kd-slide-img img {
+width: 40%;
+}
+
+
