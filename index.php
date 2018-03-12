@@ -7,18 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
 </head>
 <body class="kd-new-website">
-	<header class="kd-header">
-		<div class="kd-logo">
-			<a href="#">Krowdis</a>
-		</div>
-		<nav class="kd-nav">
-			<a href="#">Accueil</a>
-			<a href="#">Notre Solution</a>
-			<a href="#">Cas d'utilisation</a>
-			<a href="#">Blog</a>
-			<a href="#">Démo</a>
-		</nav>
-	</header>
+	<?php
+		include('header.php');
+	?>
 	<section class="kd-presentation">
 		<div class="kd-influence">
 			<h1>Et si nous étions tous vos influenceurs ?</h1>
