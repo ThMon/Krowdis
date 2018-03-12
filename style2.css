@@ -1,0 +1,96 @@
+.kd-contact-page {
+    background: #F9FAFC;
+}
+.kd-contact-title {
+  margin: 10% auto 6% auto;
+  text-align: center;
+    font-family: "MavenPro-Medium", arial, sans-serif;
+}
+.kd-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 5%;
+    font-family: "MavenPro-Medium", arial, sans-serif;
+}
+.kd-contact-images {
+  width: 50%;
+}
+.kd-form-phone, .kd-form-mail {
+  text-align: center;
+  border: 1px solid #EFEFEF;
+    border-radius: 20px;
+    box-shadow: 4px 0px 6px -7px grey;
+  width: 25%;
+  padding: 30px 0 10px 0;
+}
+.kd-form-mail {
+    padding-bottom: 35px;
+}
+
+.kd-form-phone form,.kd-form-mail form{
+  padding: 10px;
+}
+
+.kd-form-phone form div,.kd-form-mail form div {
+  display: inline-block;
+  margin: 10px auto;
+}
+input {
+    font-size: 13px;
+}
+input[value="Envoyez"] {
+    color: black;
+    padding: 1% 10%;
+    background: #F9FAFC;
+}
+input[value="Appelez-moi dans les 24h"]{
+    padding: 1% 10%;
+    background: #5D47FF;
+    color: white;
+}
+
+input[value="Envoyez"]:hover {
+    color: white;
+       background: #5D47FF;
+}
+.kd-form-phone form input, .kd-form-mail form input {
+    border-radius: 5px;
+    border: solid 1px #ccc;
+} 
+
+.kd-form-phone form div input:first-child,.kd-form-mail form div input:first-child{
+  width: 40%;
+    padding-left: 10px;
+}
+.kd-form-phone form div input:nth-child(2),.kd-form-mail form div input:nth-child(2){
+  width: 40%;
+    padding-left: 10px;
+}
+input[name="mail"], input[name="phone"], input[name="comments"]{
+  width: 86%;
+    padding-left: 10px;
+}
+input[type="submit"], input[name="phone"] {
+  margin-top: 10px;
+}
+
+.kd-form-phone h2 {
+  background-image: url('assets/img/tachetelephone.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 53%;
+  padding: 16% 25% 14% 21%;
+  margin-top: -30%;
+  color: white;
+}
+.kd-form-mail h2 {
+  background-image: url('assets/img/tachemail.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 53%;
+  padding: 49px 0 53px;
+  margin-top: -95px;
+  color: white;
+}
