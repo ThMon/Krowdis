@@ -4,6 +4,12 @@
 	<title>Krowdis.com</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="lib/slick-1.8/slick/slick.css"/>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="lib/slick-1.8/slick/slick.min.js"></script>
 </head>
 <body class="kd-new-website">
 	<?php
@@ -38,31 +44,31 @@
 			<article class="kd-use-1">
 				<div>
 					<h4>Notre technologie sur votre appli</h4>
-					<p>En branchant notre technologie sur votre application, vos utilisateurs pourront re-créer vos contenus directement depuis cette dernière.</p>
+					<p class="t-a-c">En branchant notre technologie sur votre application, vos utilisateurs pourront re-créer vos contenus directement depuis cette dernière.</p>
 				</div>
-				<p>OU</p>
+				<p class="t-a-c kd-ou">OU</p>
 				<div>
 					<h4>Vos campagnes sur l'appli Krowdis</h4>
-					<p>Pas d'application ? Nous avons développé une plateforme pour vous permettre d'héberger toutes vos campagnes</p>
+					<p class="t-a-c">Pas d'application ? Nous avons développé une plateforme pour vous permettre d'héberger toutes vos campagnes</p>
 				</div>
 			</article>
 			<article class="kd-use-2">
 				<img src="assets/img/photo.png">
 				<h3>Prise de photos</h3>
 				<hr>
-				<p>L'utilisateur prend une photo, un GIF, ou une vidéo, il peut également séléctionner un contenu multimédia déjà présent sur son smartphone</p>
+				<p class="t-a-c">L'utilisateur prend une photo, un GIF, ou une vidéo, il peut également séléctionner un contenu multimédia déjà présent sur son smartphone</p>
 			</article>
 			<article class="kd-use-3">
 				<img src="assets/img/baguette.png">
 				<h3>Transformation visuelle</h3>
 				<hr>
-				<p>Notre technologie transforme la photo en contenu pour vous. Ce dernier sera déterminé au préalable, il peut être existant ou créé pour l'occasion</p>
+				<p class="t-a-c">Notre technologie transforme la photo en contenu pour vous. Ce dernier sera déterminé au préalable, il peut être existant ou créé pour l'occasion</p>
 			</article>
 			<article class="kd-use-4">
 				<img src="assets/img/partage.png">
 				<h3>Gamification & Partages</h3>
 				<hr>
-				<p>L'utilisateur, encouragé par la gamification de notre solution partage son contenu (réseaux sociaux, message, etc).</p>
+				<p class="t-a-c">L'utilisateur, encouragé par la gamification de notre solution partage son contenu (réseaux sociaux, message, etc).</p>
 			</article>
 		</div>
 		<p class="kd-prez-footer1">Chez Krowdis, nous accordons un grande importance à votre image de marque</p>
@@ -122,10 +128,10 @@
 			</article>
 		</div>
 	</section>
-	<section class="kd-slide">
+<!-- 	<section class="kd-slide">
 		<h2>Qu'en pensent nos clients ?</h2>
-		<ul>
-			<li>
+		<ul class="kd-slider">
+			<li class="kd-slide">
 				<div class="kd-slide-txt i-b">
 					<h3>FONDATION UNIVERSITÉ DE LYON</h3>
 					<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.,</p>
@@ -134,15 +140,28 @@
 					<img src="assets/img/homme 2.png">
 				</div>
 			</li>
+			<li class="kd-slide">
+				<div class="kd-slide-txt i-b">
+					<h3>FONDATION UNIVERSITÉ DE LYON</h3>
+					<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.,</p>
+				</div>
+				<div class="kd-slide-img i-b">
+					<img src="assets/img/femme.png">
+				</div>
+			</li>
 		</ul>
-	</section>
+	</section> -->
 	<section class="kd-team">
 		<div class="kd-team-img i-b">
-			<img src="">
+			<img src="assets/img/tendteam.png">
 		</div>
 		<div class="kd-team-desc i-b">
 			<h2>Mais qui sommes-nous ?</h2>
-			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+			<p>Krowdis a inventé une nouvelle forme de marketing d’influence. Et si les contenus de marque n’étaient plus créés uniquement par des influenceurs mais par nos voisins, nos amis ou nos collègues ?</p>
+
+			<p>Notre startup, créée en 2016, est une innovation majeure dans le paysage du marketing d’influence et est aujourd'hui la première à proposer, en France - et de manière aussi aboutie dans le monde - un tel degré de proximité entre une marque et sa communauté. Nous connectons les marques directement avec leurs cibles et proposons un bouche à oreille digitalisé.</p>
+
+			<p>Chez Krowdis, nos profils complémentaires apportent des solutions optimales à nos partenaires. Nos créatifs et nos techniciens vous proposent des solutions sur mesure pour booster votre visibilité, vos taux d’engagement, et améliorer l’empreinte de votre entreprise.</p>
 		</div>
 	</section>
 	<section class="kd-marketing">
@@ -151,11 +170,8 @@
 			<a href="#" class="kd-demo-link">ORGANISER UNE DEMO</a>
 		</div>
 	</section>
-	<footer>
-		<span>2018 Krowdis - Tous droits réservés</span>
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
-		<a href=""><img src=""></a>
-	</footer>
+	<?php
+		include('footer.php');
+	?>
 </body>
 </html>
