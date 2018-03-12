@@ -4,7 +4,6 @@
 	<title>Krowdis.com</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
 </head>
 <body class="kd-new-website">
 	<?php
@@ -138,23 +137,25 @@
 		</ul>
 	</section>
 	<section class="kd-team">
-		<div>
+		<div class="kd-team-img i-b">
 			<img src="">
 		</div>
-		<div>
-			<h2>Mais qui sommes-nous</h2>
-			<p>
-				fhgjkhblmwdghjfnlkjhfbvjklqnbvlfwblkvlkjwbvlkqkbvkjbbvlkbqfkbvjklfbvlkbvljkhbwxjkvbkjhwbvlkbkfbvhqbqlbfkvbfjqgklqblvbqskbkjlbdqkbqlksjbvkdbvl
-			</p>
+		<div class="kd-team-desc i-b">
+			<h2>Mais qui sommes-nous ?</h2>
+			<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
 		</div>
 	</section>
-	<section class="kd-maketing">
+	<section class="kd-marketing">
 		<h2>Les nouveaux visages de votre marketing d'influence</h2>
 		<div>
-			<a href="#">ORGANISER UNE DEMO</a>
+			<a href="#" class="kd-demo-link">ORGANISER UNE DEMO</a>
 		</div>
 	</section>
 	<footer>
+		<span>2018 Krowdis - Tous droits réservés</span>
+		<a href=""><img src=""></a>
+		<a href=""><img src=""></a>
+		<a href=""><img src=""></a>
 	</footer>
 </body>
 </html>

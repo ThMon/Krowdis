@@ -292,6 +292,7 @@ p.kd-prez-footer2 {
 .kd-slide h2 {
 	margin-left: 3%;
 	text-align: left;
+	margin-bottom: 100px;
 }
 
 .kd-slide li {
@@ -305,16 +306,77 @@ p.kd-prez-footer2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	min-height: 305px;
+	padding: 20px 3%;
+	vertical-align: bottom;
+}
+.kd-slide-txt h3 {
+	margin-top: 70px;
+	font-size: 17px;
+  width: 80%;
+}
+
+.kd-slide-txt p {
+	width: 80%;
+  font-size: 14px;
+ 	text-align: left;
 }
 
 .kd-slide-img {
 	width: 14%;
 	margin-left: 5%;
 	text-align: left;
+	vertical-align: bottom;
 }
 
 .kd-slide-img img {
-width: 40%;
+	width: 50%;
 }
+
+
+/*====================== SECTION 6 ======================================*/
+
+
+.kd-team {
+	min-height: 640px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	text-align: center;
+}
+
+.kd-team-img {
+	width: 40%;
+}
+
+.kd-team-desc {
+	width: 40%;
+}
+
+.kd-team-desc h2, p {
+	text-align: left;
+}
+
+
+/*====================== SECTION 6 ======================================*/
+
+
+.kd-marketing {
+	min-height: 590px;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	text-align: center;
+	background-image: url('assets/img/vague.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.kd-marketing h2 {
+	width: 40%;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+
+
+
 
 
