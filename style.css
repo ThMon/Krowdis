@@ -476,7 +476,7 @@ p.kd-prez-footer2 {
 
 .kd-user-block p {
 	text-align: center;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 p.kd-conf {
@@ -489,6 +489,10 @@ p.kd-conf {
 	margin: 0 1% 30px;
 }
 
+.c-w {
+	color: white;
+}
+
 .bg-w {
 	background-color: white
 }
@@ -497,6 +501,52 @@ p.kd-conf {
 	background-color: #FDEA07;
 }
 
+
+/*====================== P10 11 ======================================*/
+
+.kd-case-ce, .kd-case-univ {
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+}
+
+.kd-img-case-left {
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.kd-img-case-right {
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.kd-case-ce h1 {
+	margin-top: 90px !important;
+	color: #5f4efb
+}
+
+.kd-case-ce h2 {
+	color: #5f4efb;
+	font-size: 20px;
+}
+
+.kd-case-ce h1,h2,p {
+	margin: 20px 5% 20px;
+}
+
+.kd-case-univ h1,h2,p {
+	margin: 20px 5% 20px ;
+}
+
+.kd-case-univ h1 {
+	margin-top: 100px;
+	color: #5f4efb;
+}
+
+.kd-case-univ h2 {
+	font-size: 20px;
+	color: #5f4efb;
+}
 
 /*====================== FOOTER ======================================*/
 footer {
