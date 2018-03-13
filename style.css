@@ -452,6 +452,36 @@ p.kd-prez-footer2 {
   padding-top: 50px;
 }
 
+
+/*====================== SECTION 9 ======================================*/
+
+.usecase {
+	margin-top: 67px;
+	background-image: url('assets/img/background-using.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.kd-user-block {
+	display: inline-block;
+  width: 200px;
+  padding: 66px 0 65px;
+  border: 1px solid black;
+  margin: 100px 2% 0;
+  border-radius: 10px;
+}
+
+.bg-w {
+	background-color: white
+}
+
+.bg-y {
+	background-color: #FDEA07;
+}
+
+
 /*====================== FOOTER ======================================*/
 footer {
 	font-family: 'MavenPro-Regular', arial, sans-serif;
