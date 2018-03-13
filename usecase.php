@@ -22,14 +22,14 @@
 		<article class="kd-user-block bg-w">
 			<p>ÉTUDIANTS</p>
 		</article>
-		<p>Ils nous font confiance</p>
+		<p class="kd-conf">Ils nous font confiance</p>
 		<div>
-			<img class="kd-case-img" src="assets/img/caisseepargnenb.png">
-			<img class="kd-case-img" src="assets/img/asvelnb.png">
-			<img class="kd-case-img" src="assets/img/creditagricolenb.png">
-			<img class="kd-case-img" src="assets/img/lounb.png">
-			<img class="kd-case-img" src="assets/img/uninb.png">
-			<img class="kd-case-img" src="assets/img/beelysnb.png">
+			<img class="kd-case-img" style="width: 9%;" src="assets/img/caisseepargnenb.png">
+			<img class="kd-case-img" style="width: 7%;" src="assets/img/asvelnb.png">
+			<img class="kd-case-img" style="width: 14%;" src="assets/img/creditagricolenb.png">
+			<img class="kd-case-img" style="width: 1.8%;" src="assets/img/lounb.png">
+			<img class="kd-case-img" style="width: 7%;" src="assets/img/uninb.png">
+			<img class="kd-case-img" style="width: 6%;" src="assets/img/beelysnb.png">
 		</div>
 	</section>
 	<?php

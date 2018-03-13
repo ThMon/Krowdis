@@ -479,6 +479,16 @@ p.kd-prez-footer2 {
 	font-size: 16px;
 }
 
+p.kd-conf {
+	text-align: center;
+	font-size: 35px;
+  margin: 60px 0;
+}
+
+.kd-case-img {
+	margin: 0 1% 30px;
+}
+
 .bg-w {
 	background-color: white
 }
