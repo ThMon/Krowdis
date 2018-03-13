@@ -26,7 +26,7 @@
 	</section>
 	<section class="kd-perso">
 		<div class="kd-left-prez">
-			<img src="assets/img/tache.png">
+			<img src="assets/img/legif.gif">
 		</div>
 		<div class="kd-right-prez">
 			<h2>La personnification de vos contenus à grande échelle</h2>

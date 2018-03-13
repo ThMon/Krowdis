@@ -1,12 +1,12 @@
 	<header class="kd-header">
 		<div class="kd-logo">
-			<a href="#">Krowdis</a>
+			<a href="index.php">Krowdis</a>
 		</div>
 		<nav class="kd-nav">
-			<a href="#">Accueil</a>
+			<a href="index.php">Accueil</a>
 			<a href="#">Notre Solution</a>
 			<a href="#">Cas d'utilisation</a>
-			<a href="#">Blog</a>
-			<a href="#">Démo</a>
+<!-- 			<a href="#">Blog</a>
+ -->	<a href="form.php">Démo</a>
 		</nav>
 	</header>
