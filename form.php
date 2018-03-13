@@ -21,7 +21,7 @@
         </div>
         <div class="kd-form">
           <h2>Contact</h2>
-          <form action="" method="post">
+          <form action="mail.php" method="post">
             <div class="kd-name">
               <input class="w-40 m-r-1-5" type="text" name="firstname" placeholder="Prénom">
               <input class="w-40" type="text" name="lastname" placeholder="Nom">

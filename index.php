@@ -22,9 +22,9 @@
 			<a href="#" class="kd-demo-link">ORGANISER UNE DEMO</a>
 			<a href="#" class="kd-info-link">PLUS D'INFORMATIONS</a>
 		</div>
-		<a href="#" class="kd-ancre"><img src="assets/img/downarrow.png"></a>
+		<a href="#kd-perso" class="kd-ancre js-scrollTo"><img src="assets/img/downarrow.png"></a>
 	</section>
-	<section class="kd-perso">
+	<section class="kd-perso" id="kd-perso">
 		<div class="kd-left-prez">
 			<img src="assets/img/legif.gif">
 		</div>
@@ -35,7 +35,7 @@
 			<a href="#" class="kd-demo-link">ÉTUDE SUR LE MARKETING D'INFLUENCE</a>
 		</div>
 	</section>
-	<section class="kd-using">
+	<section class="kd-using" id="kd-using">
 		<div class="kd-use-title">
 			<h2>Une utilisation simple</h2>
 			<p>Nous avons développé une solution à l'écoute de vos attentes</p>
@@ -173,5 +173,6 @@
 	<?php
 		include('footer.php');
 	?>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

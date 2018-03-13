@@ -1,9 +1,15 @@
 <?php
 
+$nom = $_POST['firstname'].' '.$_POST['lastname'];
 $usermail = $_POST['mail'];
+$userphone = $_POST['phone'];
+$checkbox_mail = $_POST['answerMail'];
+$checkbox_tel = $_POST['answerTel'];
+$company = $_POST['company'];
+$position = $_POST['position'];
 $usersite = "";
 $subject = "Demande contact Krowdis";
-$usermessage= $_POST['message'];
+$usermessage= $_POST['comments'];
 $mail = 'contact@krowdis.com'; // Déclaration de l'adresse de destination.
 
 
@@ -45,8 +51,8 @@ $message.= $passage_ligne.$nom.$passage_ligne.$message_txt.$passage_ligne.$users
 $message.= $passage_ligne."--".$boundary.$passage_ligne;
 //=====Ajout du message au format HTML
 $message.= "Content-Type: text/html; charset=\"ISO-8859-1\"".$passage_ligne;
-$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;
-$message.= $passage_ligne.$nom.$passage_ligne.$message_txt.$passage_ligne.$usersite.$passage_ligne.$subject.$passage_ligne.$usermail.$passage_ligne.$usermessage.$passage_ligne;
+$message.= "Content-Transfer-Encoding: 8bit".$passage_ligne;*/
+$message.= $passage_ligne.$nom.$passage_ligne.$message_txt.$passage_ligne.$usersite.$passage_ligne.$subject.$passage_ligne.$usermail.$passage_ligne.$userphone.$passage_ligne.$company.$passage_ligne.$position.$passage_ligne.$usermessage.$passage_ligne;
 //==========
 $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
