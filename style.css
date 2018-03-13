@@ -460,17 +460,23 @@ p.kd-prez-footer2 {
 	background-image: url('assets/img/background-using.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 1px solid black;
 	text-align: center;
+	font-family: 'MavenPro-Medium', arial, sans-serif;
+	background-position-y: -155px;
 }
 
 .kd-user-block {
 	display: inline-block;
   width: 200px;
   padding: 66px 0 65px;
-  border: 1px solid black;
   margin: 100px 2% 0;
   border-radius: 10px;
+  border: 1px solid #eaeae8;
+}
+
+.kd-user-block p {
+	text-align: center;
+	font-size: 16px;
 }
 
 .bg-w {
